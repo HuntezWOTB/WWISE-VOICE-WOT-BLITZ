@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{323005DC-970B-4516-9AC9-64BB4819396B}" SchemaVersion="97" RootDocumentID="{4C3C059A-BF6F-4DE3-BE6E-1E7AF8A2EDAA}">
+	<Events>
+		<WorkUnit Name="VoiceOver" ID="{323005DC-970B-4516-9AC9-64BB4819396B}" OwnerID="{4C3C059A-BF6F-4DE3-BE6E-1E7AF8A2EDAA}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Crew" ID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,2763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}" PersistMode="Standalone">
+			<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+			<ChildrenList>
+				<ActorMixer Name="voice" ID="{ABE1A3B8-1919-48CD-B366-366DF8D0BFC1}" ShortID="254751909">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz
+BlitzHUB</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ally_killed_by_player" ID="{84CA5985-BCF8-4909-B138-E63072A26EAF}" ShortID="606059226">
+							<Comment>Вами убит союзник / Союзник убит вами
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.64</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ally_killed_by_player_01" ID="{077B3171-041F-40BD-819E-B15C74B855E9}" ShortID="82942847">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="ally_killed_by_player_02" ID="{6AAFD1D5-56C1-4FAF-859B-6241AC5ED5C2}" ShortID="669058487">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ammo_bay_damaged" ID="{E0A8A006-B73D-4E03-82BF-F443D002FD0A}" ShortID="800065553">
+							<Comment>Повреждение боеукладки
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ammo_bay_damaged_01" ID="{2F7897C1-5184-4648-8F88-41CDBBEB2C35}" ShortID="742644126">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="ammo_bay_damaged_02" ID="{05A501ED-FEAD-4B0A-949E-E027014EFE40}" ShortID="24602193">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="ammo_bay_damaged_03" ID="{91843C2B-C57E-4A1B-A8E5-DA95B1917CC0}" ShortID="670741930">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="armor_not_pierced_by_player" ID="{600254FB-5B6A-4A06-841A-AFD900D15738}" ShortID="606006122">
+							<Comment>Броня не пробита
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_not_pierced_by_player_01" ID="{EC0C0346-588C-4D33-A00C-1327B0669A1E}" ShortID="892620359">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_not_pierced_by_player_02" ID="{0FA4591F-9F7A-4562-98D9-205DA65F5FB8}" ShortID="103254490">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_not_pierced_by_player_03" ID="{5DAB86CB-C861-40AF-8635-9D402A1B946F}" ShortID="382779231">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_not_pierced_by_player_04" ID="{A906A57F-C4F3-4BE2-9930-C1A41583DC1D}" ShortID="1014396308">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_not_pierced_by_player_05" ID="{EDEBB74A-DEB8-412D-95EB-A90F398A7F6E}" ShortID="818502185">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="armor_pierced_by_player" ID="{A85C2AD3-E4BE-41DB-AF48-31B66CAADF1C}" ShortID="280449603">
+							<Comment>Пробитие / Есть пробитие
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_pierced_by_player_01" ID="{35462F2E-733B-40CD-BF5B-EB31547DB452}" ShortID="431428921">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_02" ID="{8BEAA889-37FD-416B-9F4B-8014843777EF}" ShortID="791418321">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_03" ID="{72218884-655D-42EE-9171-D40F34DB6F02}" ShortID="659259394">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_04" ID="{A29F428F-0E25-4A4D-A511-BB135DDE051A}" ShortID="467950052">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_05" ID="{D02EC4F0-83E8-41EC-9134-AA0F77840751}" ShortID="592197575">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_06" ID="{0D6B6FC5-A4D8-4BF2-BA47-21440AD17720}" ShortID="592914955">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_07" ID="{89935D41-DD80-4347-AEB1-63EF3FB0280E}" ShortID="607370333">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_08" ID="{2938EA76-87D1-4F35-AF61-6625F8043EE7}" ShortID="65697875">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_09" ID="{915FFDFB-09DB-45E7-8F03-5BE415EFF5A0}" ShortID="955198031">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_10" ID="{3F3042FB-38FB-4519-91BC-78B326C8001C}" ShortID="660270882">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_11" ID="{69F16ECF-2C3D-4679-AA3E-83FE6636A125}" ShortID="7098349">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_by_player_12" ID="{B8E81536-E77E-4C48-8DF5-1A222F149352}" ShortID="1043225710">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="armor_pierced_crit_by_player" ID="{816F10CE-20AF-4814-9AD6-60CCFB47B9BF}" ShortID="233839726">
+							<Comment>Попадание / Есть попадание
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_pierced_crit_by_player_01" ID="{1AD35273-58AD-44BE-A893-67A0CE3FF67B}" ShortID="660254677">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_02" ID="{B0946841-35AD-4CD6-8A72-C510532DC10E}" ShortID="1002092847">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_03" ID="{87138E7D-DFC1-4356-9CEB-4A595A4898DF}" ShortID="418337714">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_04" ID="{FE660B68-CEED-4445-96B0-5A8160105123}" ShortID="452657471">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_05" ID="{A67ED995-478B-464D-A520-1E01AB7384A0}" ShortID="554865062">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_06" ID="{DC90642B-6BEC-4906-87FA-B1A478564B56}" ShortID="81133904">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_07" ID="{2DDE02E1-B8D1-4C99-BEC4-6BE4B3C09A91}" ShortID="656742020">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_08" ID="{B4F98C60-6C6A-4108-BAD4-C7EDFAAA7B2B}" ShortID="784438932">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_pierced_crit_by_player_09" ID="{5227121A-CCCB-40E6-B258-3E565F3401CA}" ShortID="925826237">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="armor_ricochet_by_player" ID="{332AE7E8-DA5A-46FA-B491-2ABC8B630C1B}" ShortID="1033596187">
+							<Comment>Рикошет
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_ricochet_by_player_01" ID="{6E405806-7D01-4BF5-A048-52D8633AB103}" ShortID="494066015">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_02" ID="{4A8F6073-C6B1-4172-A29D-98A14F8FD8E8}" ShortID="651233586">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_03" ID="{650FB84D-3CA0-4171-AC08-4D3AA6AB89B8}" ShortID="69509901">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_04" ID="{193A961B-FE73-4D7A-8F4D-C87F5FCED3C0}" ShortID="10605307">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_05" ID="{D33843E3-E790-44F1-B770-425CCFD06356}" ShortID="841706014">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_06" ID="{333BAD20-1E61-4CB4-A5F7-A157975A71F9}" ShortID="411809980">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="armor_ricochet_by_player_07" ID="{F37CD05D-8A87-4743-BDDB-F422FAD90974}" ShortID="189135297">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="commander_killed" ID="{EF18B2D4-2989-4839-B43C-52437B235592}" ShortID="1048455507">
+							<Comment>Командир контужен, видимость снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="commander_killed_01" ID="{AED301AB-C49D-49E0-A115-860EB44C183D}" ShortID="203679648">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="commander_killed_02" ID="{E2BDFF40-241A-4F3A-8B16-AAA5B46C6018}" ShortID="438392184">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="commander_killed_03" ID="{C1DCBBCF-A3A6-48D0-82CE-0B6BD8E1330C}" ShortID="221653352">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="driver_killed" ID="{CBE63CDB-0599-42AD-AF11-4A268951C2B1}" ShortID="261366532">
+							<Comment>Мех-Вод контужен, скорость движения и поворотов снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="driver_killed_01" ID="{9F79CE7E-485B-4071-9C3F-8472B3CBDDD2}" ShortID="330355930">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="driver_killed_02" ID="{72D282B6-D924-4B81-9208-CB491B494B7D}" ShortID="84695835">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="driver_killed_03" ID="{A89A2065-60D1-46F6-90A9-BD3C368D79E2}" ShortID="819923865">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="enemy_fire_started_by_player" ID="{F53759E2-426C-44A7-9AC9-26C38A442194}" ShortID="1063269547">
+							<Comment>Враг горит
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="enemy_fire_started_by_player_01" ID="{C6219CAC-7704-49A1-AC8B-55D771FDAF5F}" ShortID="1008523229">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_fire_started_by_player_02" ID="{C42220FB-20E0-4597-BF9C-8FC4B0C8EB13}" ShortID="345856924">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_fire_started_by_player_03" ID="{35BF7C17-E29F-43C1-8D3E-C53F1CDD279C}" ShortID="954807906">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_fire_started_by_player_04" ID="{7A04D58A-4DFD-4C97-8F8B-0445423DC807}" ShortID="1055250542">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="enemy_killed_by_player" ID="{ED166136-29A7-423D-969D-62A1217A3110}" ShortID="357592771">
+							<Comment>Готов / Противник уничтожен
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="enemy_killed_by_player_01" ID="{5ACF7BD6-1C0C-4CBB-B0A3-BADF468C0746}" ShortID="349042993">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_02" ID="{6D353C4F-469D-41F3-AD2E-BE1DF635EE92}" ShortID="576063059">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_03" ID="{7CE22995-AD9A-44AD-A33D-2BC747E5BB17}" ShortID="840127364">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_04" ID="{FBD1BE8E-96E2-492E-8E25-3CE93D3513CB}" ShortID="344013484">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_05" ID="{38CD771C-AE52-4959-938A-BE92CF228205}" ShortID="1042413449">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_06" ID="{5288FCC0-6B68-407E-8B6C-369200BBAD23}" ShortID="982580096">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_07" ID="{F62B44B4-5CEA-412D-A168-61CAEC0617F0}" ShortID="472371796">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_08" ID="{7EFF634E-068D-465D-B8E8-63F35EB25770}" ShortID="747425992">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="enemy_killed_by_player_09" ID="{3ADEE4CD-2719-45CC-8A6E-DD4297289BA6}" ShortID="956997937">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="engine_damaged" ID="{AE4D23AE-75C2-4E40-A3C4-73DA933DAFE1}" ShortID="658815949">
+							<Comment>Двигатель повреждён, скорость движения и поворотов снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="engine_damaged_01" ID="{530D43E2-517E-44BA-9530-D5E54121FC83}" ShortID="266885764">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_damaged_02" ID="{202E646D-2F6B-4C54-BBAE-F73C4D3F69AD}" ShortID="308070531">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_damaged_03" ID="{F44462C5-AC5F-43DA-A054-CD7E3CEEDA0B}" ShortID="631781505">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_damaged_04" ID="{24E5FF56-99C0-41ED-8726-2033AE411444}" ShortID="58032206">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_damaged_05" ID="{588EF9AA-63C2-4638-A34F-A887A70B7CC7}" ShortID="941215392">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="engine_destroyed" ID="{1436B103-CD77-4419-978B-7DA9E3D5979D}" ShortID="225465094">
+							<Comment>Критическое повреждение двигателя, движение невозможно
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="engine_destroyed_01" ID="{21F984A1-4C1E-4305-81E8-7666A952022C}" ShortID="99092719">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_destroyed_02" ID="{A91D69EC-9226-4467-8687-F80329F546F9}" ShortID="995931349">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_destroyed_03" ID="{EAF7ADF1-E372-4A44-A9D6-BEFB973CCB1C}" ShortID="152337215">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="engine_functional" ID="{CE698779-6C4A-4D15-8C04-2402AD4117C9}" ShortID="872664146">
+							<Comment>Двигатель частично восстановлен, можно ехать, максимальная скорость снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="engine_functional_01" ID="{07B00CF1-CB43-491A-9492-AD7F8ACEA9CC}" ShortID="872160025">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="engine_functional_02" ID="{6F2413BF-58BD-4BAC-8565-A6D2BE28A118}" ShortID="142857299">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fire_started" ID="{88A4CA6C-854E-42B2-B09F-6C7CA9BA4CFF}" ShortID="661548212">
+							<Comment>Танк горит
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fire_started_01" ID="{78D68189-5CC3-4328-AE4C-1D791E75FDE6}" ShortID="266285801">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fire_started_02" ID="{8DEF83A1-E83F-41AF-AEB1-1A653ED924E4}" ShortID="494721405">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fire_stopped" ID="{01B3FC53-DF43-493A-B00D-E748E00E9077}" ShortID="885601922">
+							<Comment>Пожар потушен
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fire_stopped_01" ID="{4B00CAA4-A0C1-44E6-ACA6-A5EB239C9C86}" ShortID="511443318">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fire_stopped_02" ID="{65B726FF-A82D-40AE-89BE-A62ADDD99826}" ShortID="832609654">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fire_stopped_03" ID="{F21E1904-0F57-4015-9578-8D2870215670}" ShortID="211905402">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fuel_tank_damaged" ID="{28B2AE7B-A7B1-44BB-8186-C8077740B416}" ShortID="13071338">
+							<Comment>Бак повреждён, опасность взрыва
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fuel_tank_damaged_01" ID="{4AC9F2D7-0DA7-419A-805E-8E81944A8E1D}" ShortID="136321506">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fuel_tank_damaged_02" ID="{4985DB1A-664C-4A10-9A6D-C5C4FD539BE6}" ShortID="70655230">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fuel_tank_damaged_03" ID="{45B733AA-2723-4709-8F13-F20D31C4F336}" ShortID="639689243">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="fuel_tank_damaged_04" ID="{7CF860BA-950B-4A9D-A5CF-15A2579074B3}" ShortID="543565646">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="gun_damaged" ID="{7E03A4EA-29E8-4DAA-98A6-A51F9EF65A06}" ShortID="776103630">
+							<Comment>Орудие повреждено, точность стрельбы снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gun_damaged_01" ID="{C0BF1DE2-789C-4C09-94D5-B3147F0E4FE0}" ShortID="235087901">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_damaged_02" ID="{E06A599D-5719-4AE2-8D4C-CC01989025EA}" ShortID="645131280">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_damaged_03" ID="{9E91A62B-9048-4D06-BC74-EDDDE0E2506E}" ShortID="669959655">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_damaged_04" ID="{C758F582-3983-4B95-9349-6047712769CF}" ShortID="741731106">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="gun_destroyed" ID="{5CE446F4-AE51-4255-93D1-5369D054AFC2}" ShortID="613448389">
+							<Comment>Критическое повреждение орудия, стрельба невозможна
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gun_destroyed_01" ID="{ACA6B047-86EF-43A8-B37B-5BCF68428670}" ShortID="598393473">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_destroyed_02" ID="{CDB8D9A1-3F7D-4187-A923-2808D031912D}" ShortID="759827027">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_destroyed_03" ID="{92DE2544-9FE1-4422-93EE-0FA6850322E1}" ShortID="355277213">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="gun_functional" ID="{BE495E2F-F81B-47EB-ACBA-F67C08B63591}" ShortID="422605910">
+							<Comment>Орудие частично восстановлено, можно стрелять
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gun_functional_01" ID="{7D607D5E-401F-4C8B-84CE-B09EFB525A65}" ShortID="118237986">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_functional_02" ID="{8BC81F86-0CAE-41B0-89F0-F0EE9DA13831}" ShortID="332449632">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_functional_03" ID="{6D8776CC-7D69-41F7-A719-41443807CAC0}" ShortID="530054699">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gun_functional_04" ID="{D3374126-31FA-4A12-A5DA-DBF21BC49B26}" ShortID="779866207">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="gunner_killed" ID="{370DE8CB-7594-4D37-9633-CCAAB2A5D9D4}" ShortID="104801151">
+							<Comment>Наводчик контужен, разброс увеличивается
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gunner_killed_01" ID="{2395AA86-C2D4-4B1A-805B-C9043F0553A9}" ShortID="795929967">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gunner_killed_02" ID="{EB2D30FB-82C4-436C-8B60-87518B8D17F6}" ShortID="426764803">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="gunner_killed_03" ID="{DE97C472-4563-434C-AEF5-BBCC1CB2A003}" ShortID="865801751">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="loader_killed" ID="{967333D2-CCC5-483C-AF0E-062919861322}" ShortID="946345014">
+							<Comment>Заряжающий контужен, скорость перезарядки снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="loader_killed_01" ID="{F124277B-001C-4FD4-9DD3-3745362F1E1A}" ShortID="754100091">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="loader_killed_02" ID="{4AE1C044-330B-4FC9-8E67-2B83FB95D270}" ShortID="893172312">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="radio_damaged" ID="{2A9BF07C-CAD6-488C-92AD-240C26813FAE}" ShortID="475487644">
+							<Comment>Повреждена рация, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="radio_damaged_01" ID="{BD43EEA5-E922-44A7-8328-4DCE6BFDA8F7}" ShortID="207198324">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="radio_damaged_02" ID="{899973FD-8F55-456A-8B93-70B277D92A12}" ShortID="212131374">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="radio_damaged_03" ID="{2D922DF2-3F40-4436-BE09-F343D627C237}" ShortID="872922478">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="radio_damaged_04" ID="{C1020B80-7595-419F-B9EC-6D1E229DA265}" ShortID="427294580">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="radio_damaged_05" ID="{49E967DE-6552-4D8A-AF73-755AC1574191}" ShortID="844098696">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="radioman_killed" ID="{6CFFB6AD-1B72-4E59-BFF4-2B6DF5AAF756}" ShortID="365038380">
+							<Comment>Радист контужен, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="radioman_killed_01" ID="{3102DA0E-D13C-4D66-B39B-A79E3466167F}" ShortID="264170496">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="start_battle" ID="{F963B4EB-8E2A-46BA-B714-7F779DB5D2FC}" ShortID="475089892">
+							<Comment>Бой начинается / В бой / Поехали
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="start_battle_01" ID="{706D5AF9-11BA-42E0-9DD7-5F25391BF632}" ShortID="310106266">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_02" ID="{0E6371A6-63D6-4ECA-86B7-7815E2625B7E}" ShortID="877984231">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_03" ID="{E8787D86-D06F-4DA6-A3AD-DC59AE22C485}" ShortID="126400968">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_04" ID="{9BDF98B7-CD78-44EF-B689-7FE9013D05CA}" ShortID="202465151">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_05" ID="{B1B7D4B1-A0D5-4AFE-85DD-3529EC8AA771}" ShortID="123805869">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_06" ID="{74DFBB05-F2D8-4DD0-90F5-2B088F6E83CD}" ShortID="157851426">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_07" ID="{2EBFA15C-6F36-4D5B-BA64-00A720FBFD2E}" ShortID="230947260">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="start_battle_08" ID="{E5911ED1-6AF5-405C-AD22-559ABA1E4229}" ShortID="500050733">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="surveying_devices_damaged" ID="{C330C228-58AB-4CCB-A550-0B3647B347D4}" ShortID="238554967">
+							<Comment>Трипликс повреждён, область видимости снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="surveying_devices_damaged_01" ID="{FC313B3E-FEAF-4B01-9601-D52290E702D5}" ShortID="589278076">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_damaged_02" ID="{50A70E70-7015-4EDA-8BC9-A94E3712CCEA}" ShortID="966892383">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_damaged_03" ID="{AA1E127B-E330-48DC-A7DC-DEFA709A86FC}" ShortID="845633316">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_damaged_04" ID="{B99F65ED-C88E-4438-AFC5-AE35D5065B25}" ShortID="62020772">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_damaged_05" ID="{5D50CF7E-842D-49EA-A61E-193F24ED9CDC}" ShortID="182229627">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="surveying_devices_destroyed" ID="{9E6D14E9-AD12-4703-A3FB-6038C3155F98}" ShortID="916268997">
+							<Comment>Разбит трипликс, видимость снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="surveying_devices_destroyed_01" ID="{D2BC62F4-76A6-4F50-A1BE-6C1D69791E06}" ShortID="496288281">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_destroyed_02" ID="{6149591A-1A45-4BA8-8740-2AD4DD32D361}" ShortID="227837883">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_destroyed_03" ID="{0D3A194F-4BC4-49A6-8984-7D5DA14AEE06}" ShortID="14178103">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_destroyed_04" ID="{916CE37F-C61A-409F-B419-8EAC7C62A7AB}" ShortID="140354944">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_destroyed_05" ID="{F0ECD2EC-3668-4D24-94A0-4E6A0BFE0C98}" ShortID="830041255">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_destroyed_06" ID="{D963BB35-6F53-4C8C-BC56-43C63706AFC3}" ShortID="73006438">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="surveying_devices_functional" ID="{2F40F14C-7D9B-4140-AA2A-E37EE541C167}" ShortID="305181478">
+							<Comment>Трипликс восстановлен, обзор нормальный
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="surveying_devices_functional_01" ID="{F1D7E9E9-5CF5-4725-9C37-0E4878201CA2}" ShortID="551804579">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_functional_02" ID="{86AA9CBF-133B-4AAE-A7E3-9C939BF8C173}" ShortID="902702154">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_functional_03" ID="{D49026D3-E587-4F54-B17C-5088C2C4CFF3}" ShortID="1008123126">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_functional_04" ID="{09E62082-C010-49CB-A7C5-278ADD6381C0}" ShortID="518146083">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_functional_05" ID="{3C57E0B3-5AC6-477E-BEF4-38C81482240C}" ShortID="82770753">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="surveying_devices_functional_06" ID="{117D6C5F-F477-4815-BA47-1DC69D133A11}" ShortID="1003546831">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="track_damaged" ID="{16882B8C-3123-44FA-AEA2-00D047C17EE2}" ShortID="43849390">
+							<Comment>Гусеницы повреждены, шанс разрыва увеличен
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="track_damaged_01" ID="{BA6A660C-4BB0-497E-A68C-7DE111D16BBC}" ShortID="2641960">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_damaged_02" ID="{80C10665-8D0F-42D4-B909-B5AF4E75A917}" ShortID="158531634">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_damaged_03" ID="{4D8FCAF5-3449-4A1C-89BA-8AC6CD20D5C2}" ShortID="472472377">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_damaged_04" ID="{A0A33794-32BA-4485-A37E-8372CEFA9AB1}" ShortID="425709319">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="track_destroyed" ID="{E3AA61E0-EF59-46CC-A742-1442F06D0DAE}" ShortID="687878362">
+							<Comment>Гусеница сбита, движение невозможно
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="track_destroyed_01" ID="{31FCEEAF-7F48-4EB5-94D0-6BDF197FD1D1}" ShortID="204280664">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_destroyed_02" ID="{AFA0ED0F-1783-4C97-8779-040081BF8604}" ShortID="291065210">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_destroyed_03" ID="{1133C794-B648-472B-8665-E6AFAFE9E642}" ShortID="980379960">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_destroyed_04" ID="{0CDBF3F2-A390-46B2-B09F-C85F0AA39894}" ShortID="57302920">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="track_functional" ID="{BC8AC1C7-5665-426E-A7D2-18315FF5A556}" ShortID="990146772">
+							<Comment>Гусеница восстановлена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="track_functional_01" ID="{DDB4919F-B57B-4F1D-B6B7-10353B1A154F}" ShortID="666266759">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_02" ID="{4DC5455F-5693-43BC-8DFB-ECEBDB76D5DA}" ShortID="62183940">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_03" ID="{6024B4C3-AFAA-4624-9440-AB0DC90BBC1E}" ShortID="386663984">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_04" ID="{2852F8ED-FC5C-4E82-986D-63F8EB9FD8FA}" ShortID="157661345">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="track_functional_can_move" ID="{1A3CE061-D464-4FF2-999B-5D5C36610836}" ShortID="443090241">
+							<Comment>Гусеница восстановлена, можо ехать
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="track_functional_can_move_01" ID="{34653746-22C4-4CAC-8E75-7354F87BC3F1}" ShortID="619938186">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_can_move_02" ID="{97A7BC5D-D893-4483-A353-E3F2643F69FB}" ShortID="1031257240">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_can_move_03" ID="{EBDC358D-4C10-4D64-955A-3B1E70CB73F3}" ShortID="943093332">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_can_move_04" ID="{22CE90A6-23E5-45D4-B0CC-91BD13C331AF}" ShortID="125580191">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="track_functional_can_move_05" ID="{772A9D25-D664-4C67-B67F-F462B4611003}" ShortID="511313876">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="turret_rotator_damaged" ID="{612179C7-FA85-4991-BBDA-3FCD576B4900}" ShortID="264573588">
+							<Comment>Попадание под башню, скорость вращения башни снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="turret_rotator_damaged_01" ID="{0C4D1AF5-63A5-4CC0-9122-1EAD25033A03}" ShortID="407192915">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="turret_rotator_damaged_02" ID="{EB1F5B4F-E4B2-4459-B2E7-B4708D026E82}" ShortID="697367477">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="turret_rotator_destroyed" ID="{F42CC84F-19EA-494A-A151-1186F6411C77}" ShortID="577581722">
+							<Comment>Вращение башни невозможно, уничтожен механизм
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="turret_rotator_destroyed_01" ID="{E948F092-F0F2-4577-BCD2-DB70C0C7936C}" ShortID="1064147288">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="turret_rotator_destroyed_02" ID="{340E13A0-5B7B-46B8-A49E-79EDD995E5E6}" ShortID="798948470">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="turret_rotator_functional" ID="{5BF0E2C5-F7EC-4286-89AC-3CE419261814}" ShortID="215614851">
+							<Comment>Вращение башни частично восстановлена, скорость вращения снижена
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="turret_rotator_functional_01" ID="{48DEF15A-E194-48FE-A4C8-98C9B5BA4405}" ShortID="651853776">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="turret_rotator_functional_02" ID="{59D87D8D-C47F-4434-97E0-29C19313C0BA}" ShortID="448480266">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="vehicle_destroyed" ID="{336EAAE5-0DD5-4E06-BF87-1362B4ED4EDE}" ShortID="633533556">
+							<Comment>Танк уничтожен
+Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.64</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vehicle_destroyed_01" ID="{0CA08076-45A5-435A-AB02-C854714F7E2B}" ShortID="24567787">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="vehicle_destroyed_02" ID="{F7133ED9-7C4C-4A95-A802-B0F943D9714E}" ShortID="779483374">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="vehicle_destroyed_03" ID="{3D086453-2E16-447D-98B5-D41BE9FE175C}" ShortID="993814278">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE569804-C14C-4EA0-9737-2971FAC0A4EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

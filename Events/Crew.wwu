@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" SchemaVersion="97" RootDocumentID="{4C3C059A-BF6F-4DE3-BE6E-1E7AF8A2EDAA}">
+	<Events>
+		<WorkUnit Name="Crew" ID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" OwnerID="{323005DC-970B-4516-9AC9-64BB4819396B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ingame_voice_notifications_VO_ally_killed_by_player" ID="{53AC501D-599F-458C-A8BF-A0E28A7C3C56}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{2CDA7FBE-9D23-43EF-B291-2CE2886AAB23}" ShortID="311998312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ally_killed_by_player" ID="{84CA5985-BCF8-4909-B138-E63072A26EAF}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_ammo_bay_damaged" ID="{1B932A42-BC7A-41A5-AB8D-1FB0DC8AC9A0}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{F59E7BCA-4187-4383-A43F-D0A6E0113301}" ShortID="193594939">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ammo_bay_damaged" ID="{E0A8A006-B73D-4E03-82BF-F443D002FD0A}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_not_pierced_by_player" ID="{8EE3C826-DBC5-402E-9D1F-28F1AA10BF01}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{EF4D93B4-BE0C-4185-941F-E398AF9124CF}" ShortID="425981964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="armor_not_pierced_by_player" ID="{600254FB-5B6A-4A06-841A-AFD900D15738}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_pierced_by_player" ID="{B653B26B-45AB-4AD4-94DE-BE22B2201A02}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{9264E842-236E-4A6B-9111-BC3EBD89CD6C}" ShortID="1050765629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="armor_pierced_by_player" ID="{A85C2AD3-E4BE-41DB-AF48-31B66CAADF1C}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_pierced_crit_by_player" ID="{E1B9391E-3E2A-4A41-B879-D4E3CAD14D35}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{6B2D1185-C0FA-4D47-8E05-8477E45D53F1}" ShortID="326121170">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="armor_pierced_crit_by_player" ID="{816F10CE-20AF-4814-9AD6-60CCFB47B9BF}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_ricochet_by_player" ID="{5A4127E3-178A-4EBE-A4C9-761A7E8D04BA}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{F1624E46-B714-47F6-8122-CAEA9B0D9188}" ShortID="95285044">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="armor_ricochet_by_player" ID="{332AE7E8-DA5A-46FA-B491-2ABC8B630C1B}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_commander_killed" ID="{9E49078E-07E2-49AB-8229-9BDC032641C9}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{FABEE28F-B2C8-41B6-A6D8-D09875FD9D99}" ShortID="358147116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="commander_killed" ID="{EF18B2D4-2989-4839-B43C-52437B235592}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_driver_killed" ID="{5B82FF80-B445-4370-B8AD-C7AEFFC268FC}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{98361072-C4C2-4584-B69D-353AC51CCDDB}" ShortID="406192814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="driver_killed" ID="{CBE63CDB-0599-42AD-AF11-4A268951C2B1}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_enemy_fire_started_by_player" ID="{418A99A8-40BB-437E-80A6-00BD21DC5167}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{BA686436-6904-488D-B5E5-0D9FB5E12182}" ShortID="974323650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_fire_started_by_player" ID="{F53759E2-426C-44A7-9AC9-26C38A442194}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_enemy_killed_by_player" ID="{6081D2BD-AF19-4B59-8EDD-67C8AF946921}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{EAD7262C-F308-47D1-A839-188BF9DF39AA}" ShortID="588709244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_killed_by_player" ID="{ED166136-29A7-423D-969D-62A1217A3110}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_damaged" ID="{4FC7799D-5E99-477F-B064-00D3ED84D1D0}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{000D8DF8-0DC5-4660-A75A-FCEA2A85D19B}" ShortID="810493816">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="engine_damaged" ID="{AE4D23AE-75C2-4E40-A3C4-73DA933DAFE1}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_destroyed" ID="{F8D8949E-A30D-42F1-ADED-DC3CB6D743C0}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{62720686-372E-427C-9BC4-E7D5367B15B7}" ShortID="1020440527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="engine_destroyed" ID="{1436B103-CD77-4419-978B-7DA9E3D5979D}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_functional" ID="{A69F7FB4-CFE0-4CD3-93DE-84F387D30D45}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{6DB0CED7-DFEC-463C-8B01-0C6BDF5C01E1}" ShortID="833848162">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="engine_functional" ID="{CE698779-6C4A-4D15-8C04-2402AD4117C9}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fire_started" ID="{91D349D3-C68B-46F8-AD85-4ADA6B82CAC8}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{51D4560A-3D59-4BC0-A76F-87E5FC3F0DA2}" ShortID="147910411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire_started" ID="{88A4CA6C-854E-42B2-B09F-6C7CA9BA4CFF}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fire_stopped" ID="{AA0F26AB-1D93-4FF3-B9F2-2FA0F088D3E3}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{33BBDDB5-7D1A-49DC-A850-17706005F69B}" ShortID="1043183207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire_stopped" ID="{01B3FC53-DF43-493A-B00D-E748E00E9077}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fuel_tank_damaged" ID="{C66A5560-44C7-4BF4-AE81-E908BCFDDCF0}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{1C09C136-9228-4FC9-8B86-7E3CA8E84412}" ShortID="961777157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fuel_tank_damaged" ID="{28B2AE7B-A7B1-44BB-8186-C8077740B416}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_damaged" ID="{8FECCFD1-3E66-49E2-9D3C-2383318B1980}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{693E08FB-9C2A-458B-B941-2A7AE507C46E}" ShortID="299889704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_damaged" ID="{7E03A4EA-29E8-4DAA-98A6-A51F9EF65A06}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_destroyed" ID="{1B8DC79A-D3E4-487A-B31F-1C2938E9AC8E}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{F91AB76C-7751-46FF-82CE-B3AE9B5F34B9}" ShortID="106678595">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_destroyed" ID="{5CE446F4-AE51-4255-93D1-5369D054AFC2}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_functional" ID="{61335F64-D735-457F-8205-BF89FDECCDD9}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{7F2612D6-B49D-4ED5-B07A-5B868D37DE89}" ShortID="173960024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_functional" ID="{BE495E2F-F81B-47EB-ACBA-F67C08B63591}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gunner_killed" ID="{D098B975-CC4A-4A81-880F-FFF39F04B736}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{615C2A6B-5758-49B6-A67F-FA15526ECE24}" ShortID="437394921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gunner_killed" ID="{370DE8CB-7594-4D37-9633-CCAAB2A5D9D4}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_loader_killed" ID="{DB3B3A4F-1B71-443E-87F3-F911CE700DCC}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{E62B19F1-D338-49FD-8732-C21A848F7E37}" ShortID="991231710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loader_killed" ID="{967333D2-CCC5-483C-AF0E-062919861322}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_radio_damaged" ID="{64E0E748-D6BF-4676-8D8B-7AF99003508A}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{6220DC1F-6268-4730-80BD-965A348783A2}" ShortID="249898326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="radio_damaged" ID="{2A9BF07C-CAD6-488C-92AD-240C26813FAE}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_radioman_killed" ID="{79B75262-BB5C-41BB-977B-07B92B497EDA}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{0B5BD2A2-B6B6-4AB0-8E87-DABCA7362E7D}" ShortID="491615152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="radioman_killed" ID="{6CFFB6AD-1B72-4E59-BFF4-2B6DF5AAF756}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_start_battle" ID="{F85BE784-BB8C-42BA-AD9E-0E580B6FD617}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{EB2D104E-9102-4F61-83EA-0B835987A8E4}" ShortID="659417032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="start_battle" ID="{F963B4EB-8E2A-46BA-B714-7F779DB5D2FC}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_damaged" ID="{188FDB9E-A512-4033-8818-1438E14CC203}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{6DB63F44-249E-490E-B71E-B2B33872373F}" ShortID="95583406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="surveying_devices_damaged" ID="{C330C228-58AB-4CCB-A550-0B3647B347D4}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_destroyed" ID="{57A11983-01AF-4EEA-B76A-359081E16133}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{E8148127-48C5-4CE9-B5F3-4D70CB922EE6}" ShortID="538196488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="surveying_devices_destroyed" ID="{9E6D14E9-AD12-4703-A3FB-6038C3155F98}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_functional" ID="{BDB31D0E-A7E8-454A-B3BB-2CADC207A085}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{64406307-06C0-4149-A237-B58D73AADE2E}" ShortID="492810894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="surveying_devices_functional" ID="{2F40F14C-7D9B-4140-AA2A-E37EE541C167}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_damaged" ID="{B7DC05CB-1C3D-4DB8-9D82-53E029EFD9CF}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{FD8D99AA-F40C-48A4-88D5-21AD19A0FA2D}" ShortID="438701362">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_damaged" ID="{16882B8C-3123-44FA-AEA2-00D047C17EE2}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_destroyed" ID="{5607F64B-2482-43E2-A1CA-5371B9B50A97}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{21336112-378F-46C8-B5C3-7312C1D813AB}" ShortID="260369622">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_destroyed" ID="{E3AA61E0-EF59-46CC-A742-1442F06D0DAE}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_functional" ID="{397D6BCB-3F9E-4602-AAA8-B81667A5AAEF}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{69194CD3-0A12-4246-9CEC-A559D4DE9EEA}" ShortID="1055570404">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_functional" ID="{BC8AC1C7-5665-426E-A7D2-18315FF5A556}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_functional_can_move" ID="{4F549721-61A4-460F-97EC-B4BA45CB1B45}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{DD437F13-1355-48DE-A49E-13144C17E774}" ShortID="142496786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_functional_can_move" ID="{1A3CE061-D464-4FF2-999B-5D5C36610836}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_damaged" ID="{E719D019-1CBF-4664-A3E1-1D7168A3B2FF}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{C83B7D1B-C3F4-46DC-A9AB-A79C1216A346}" ShortID="987205207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turret_rotator_damaged" ID="{612179C7-FA85-4991-BBDA-3FCD576B4900}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_destroyed" ID="{8D5D7021-6091-4810-848C-87B4E3951B4D}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{9C688264-9330-4BA6-BF74-A8D4CE694EA1}" ShortID="685047182">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turret_rotator_destroyed" ID="{F42CC84F-19EA-494A-A151-1186F6411C77}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_functional" ID="{817CE663-CF84-4A48-87CA-50C642CE2726}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{13D9BCAF-FBA4-4984-827D-D0812D7FECCF}" ShortID="779906429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turret_rotator_functional" ID="{5BF0E2C5-F7EC-4286-89AC-3CE419261814}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_vehicle_destroyed" ID="{894E9156-CEE5-4540-9577-69F77CD4F03F}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{0D10A2CF-1BB9-4EC1-9EB4-3BD50CB26637}" ShortID="202122099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vehicle_destroyed" ID="{336EAAE5-0DD5-4E06-BF87-1362B4ED4EDE}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
