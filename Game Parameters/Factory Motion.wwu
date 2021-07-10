@@ -10,9 +10,8 @@
 				</GameParameter>
 				<GameParameter Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="4"/>
-						<Property Name="Min" Type="Real64" Value="0.1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

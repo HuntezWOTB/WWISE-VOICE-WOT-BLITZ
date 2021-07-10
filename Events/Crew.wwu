@@ -458,6 +458,19 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_cut" ID="{790D14F4-C3CC-4BF8-8785-65F3BD4E6CE8}">
+					<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{0822DBBB-0E9C-4B7A-BCE2-6C93C48BC12A}" ShortID="434090098">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_cut" ID="{7F217402-525D-4EF0-9C70-57DD50D3075F}" WorkUnitID="{FA1E4BF5-95D0-430B-BF3F-3FD2FF93867D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

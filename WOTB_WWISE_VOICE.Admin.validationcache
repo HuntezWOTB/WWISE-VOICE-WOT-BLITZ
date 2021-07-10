@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\WOTB_WWISE_VOICE.wproj" DateLow="1625756500" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\WOTB_WWISE_VOICE.Admin.wsettings" DateLow="1625773207" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Virtual Acoustics\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Triggers\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Switches\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\States\Default Work Unit.wwu" DateLow="1625760668" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\SoundBanks\Default Work Unit.wwu" DateLow="1625691412" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Queries\Factory Queries.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Queries\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Presets\Factory Spatial Audio.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Presets\Factory Reflect.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Presets\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Modulators\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Mixing Sessions\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Game Parameters\Factory Motion.wwu" DateLow="1625760668" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Game Parameters\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Events\VoiceOver.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Events\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Events\Crew.wwu" DateLow="1625691412" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory Reflect.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory McDSP Effects.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory Mastering Suite.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Filters.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Dynamics.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Delay.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory iZotope Box Modeler.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory Effects.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Factory Auro Headphone.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Effects\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Conversion Settings\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Control Surface Sessions\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Audio Devices\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Attenuations\Default Work Unit.wwu" DateLow="1617894132" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Mods-WoTB\WWISE VOICE WOT BLITZ V8.0.0\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1625773207" DateHigh="0"/>
+</ValidationCache>

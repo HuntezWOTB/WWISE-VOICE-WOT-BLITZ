@@ -37,6 +37,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<ObjectRef Name="ingame_voice_notifications_VO_armor_pierced_by_player" ID="{B653B26B-45AB-4AD4-94DE-BE22B2201A02}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ingame_voice_notifications_VO_enemy_killed_by_player" ID="{6081D2BD-AF19-4B59-8EDD-67C8AF946921}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ingame_voice_notifications_VO_fuel_tank_damaged" ID="{C66A5560-44C7-4BF4-AE81-E908BCFDDCF0}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ingame_voice_notifications_VO_track_cut" ID="{790D14F4-C3CC-4BF8-8785-65F3BD4E6CE8}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ingame_voice_notifications_VO_engine_functional" ID="{A69F7FB4-CFE0-4CD3-93DE-84F387D30D45}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ingame_voice_notifications_VO_track_damaged" ID="{B7DC05CB-1C3D-4DB8-9D82-53E029EFD9CF}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ingame_voice_notifications_VO_armor_ricochet_by_player" ID="{5A4127E3-178A-4EBE-A4C9-761A7E8D04BA}" WorkUnitID="{2FB9129D-E113-4230-AD06-1C2C8E5B8F05}" Origin="Manual" Filter="7"/>
