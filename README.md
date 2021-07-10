@@ -230,6 +230,10 @@ surveying_devices_functional_04.wav
 surveying_devices_functional_05.wav
 surveying_devices_functional_06.wav
 
+Гусеница сбита, можем откатиться
+# track_cut
+track_destroyed_cut_01.wav
+
 Повреждение гусеницы
 # track_damaged
 track_damaged_01.wav
