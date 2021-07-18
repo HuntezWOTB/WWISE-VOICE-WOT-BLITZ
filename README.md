@@ -24,27 +24,28 @@
 (К фразам идёт название аудиофайла и его формат, фразу сохраняем под нужным названием и форматом)
 (Просто перенесите аудиофайл из папки в программу под нужный контейнер, она сама настроит его(если под правильным названием и форматом))
 
-Уничтожение союзника вами
+
 # ally_killed_by_player
+Уничтожение союзника вами
 ally_killed_by_player_01.wav
 ally_killed_by_player_02.wav
 
-Повреждение боеукладки
 # ammo_bay_damaged
+Повреждение боеукладки
 ammo_bay_damaged_01.wav
 ammo_bay_damaged_02.wav
 ammo_bay_damaged_03.wav
 
-Броня не пробита
 # armor_not_pierced_by_player
+Броня не пробита
 armor_not_pierced_by_player_01.wav
 armor_not_pierced_by_player_02.wav
 armor_not_pierced_by_player_03.wav
 armor_not_pierced_by_player_04.wav
 armor_not_pierced_by_player_05.wav
 
-Пробитие
 # armor_pierced_by_player
+Пробитие
 armor_pierced_by_player_01.wav
 armor_pierced_by_player_02.wav
 armor_pierced_by_player_03.wav
@@ -58,8 +59,8 @@ armor_pierced_by_player_10.wav
 armor_pierced_by_player_11.wav
 armor_pierced_by_player_12.wav
 
-Попадание
 # armor_pierced_crit_by_player
+Попадание
 armor_pierced_crit_by_player_01.wav
 armor_pierced_crit_by_player_02.wav
 armor_pierced_crit_by_player_03.wav
@@ -70,8 +71,8 @@ armor_pierced_crit_by_player_07.wav
 armor_pierced_crit_by_player_08.wav
 armor_pierced_crit_by_player_09.wav
 
-Рикошет
 # armor_ricochet_by_player
+Рикошет
 armor_ricochet_by_player_01.wav
 armor_ricochet_by_player_02.wav
 armor_ricochet_by_player_03.wav
@@ -80,27 +81,27 @@ armor_ricochet_by_player_05.wav
 armor_ricochet_by_player_06.wav
 armor_ricochet_by_player_07.wav
 
-Командир ранен
 # commander_killed
+Командир ранен
 commander_killed_01.wav
 commander_killed_02.wav
 commander_killed_03.wav
 
-Мех-Вод ранен
 # driver_killed
+Мех-Вод ранен
 driver_killed_01.wav
 driver_killed_02.wav
 driver_killed_03.wav
 
-Враг горит
 # enemy_fire_started_by_player
+Враг горит
 enemy_fire_started_by_player_01.wav
 enemy_fire_started_by_player_02.wav
 enemy_fire_started_by_player_03.wav
 enemy_fire_started_by_player_04.wav
 
-Противник уничтожен
 # enemy_killed_by_player
+Противник уничтожен
 enemy_killed_by_player_01.wav
 enemy_killed_by_player_02.wav
 enemy_killed_by_player_03.wav
@@ -111,90 +112,90 @@ enemy_killed_by_player_07.wav
 enemy_killed_by_player_08.wav
 enemy_killed_by_player_09.wav
 
-Двигатель повреждён
 # engine_damaged
+Двигатель повреждён
 engine_damaged_01.wav
 engine_damaged_02.wav
 engine_damaged_03.wav
 engine_damaged_04.wav
 engine_damaged_05.wav
 
-Двигатель выведен из строя
 # engine_destroyed
+Двигатель выведен из строя
 engine_destroyed_01.wav
 engine_destroyed_02.wav
 engine_destroyed_03.wav
 
-Двигатель частично восстановлен, можно ехать
 # engine_functional
+Двигатель частично восстановлен, можно ехать
 engine_functional_01.wav
 engine_functional_02.wav
 
-Танк горит
 # fire_started
+Танк горит
 fire_started_01.wav
 fire_started_02.wav
 
-Пожар потушен
 # fire_stopped
+Пожар потушен
 fire_stopped_01.wav
 fire_stopped_02.wav
 fire_stopped_03.wav
 
-Бак повреждён
 # fuel_tank_damaged
+Бак повреждён
 fuel_tank_damaged_01.wav
 fuel_tank_damaged_02.wav
 fuel_tank_damaged_03.wav
 fuel_tank_damaged_04.wav
 
-Орудие повреждено
 # gun_damaged
+Орудие повреждено
 gun_damaged_01.wav
 gun_damaged_02.wav
 gun_damaged_03.wav
 gun_damaged_04.wav
 
-Орудие выведено из строя
 # gun_destroyed
+Орудие выведено из строя
 gun_destroyed_01.wav
 gun_destroyed_02.wav
 gun_destroyed_03.wav
 
-Орудие частично восстановлено, можно стрелять
 # gun_functional
+Орудие частично восстановлено, можно стрелять
 gun_functional_01.wav
 gun_functional_02.wav
 gun_functional_03.wav
 gun_functional_04.wav
 
-Наводчик ранен
 # gunner_killed
+Наводчик ранен
 gunner_killed_01.wav
 gunner_killed_02.wav
 gunner_killed_03.wav
 
-Заряжающий ранен
 # loader_killed
+Заряжающий ранен
 loader_killed_01.wav
 loader_killed_02.wav
 
+# radio_damaged
 Рация повреждена
 (НЕ ЗАДЕЙСТВОВАНА В ИГРЕ)[МОЖНО ПРОПУСТИТЬ]
-# radio_damaged
 radio_damaged_01.wav
 radio_damaged_02.wav
 radio_damaged_03.wav
 radio_damaged_04.wav
 radio_damaged_05.wav
 
+# radioman_killed
 Радист ранен
 (НЕ ЗАДЕЙСТВОВАНА В ИГРЕ)[МОЖНО ПРОПУСТИТЬ]
-# radioman_killed
 radioman_killed_01.wav
 
-Бой начинается
 # start_battle
+Бой начинается
 start_battle_01.wav
 start_battle_02.wav
 start_battle_03.wav
@@ -204,16 +205,16 @@ start_battle_06.wav
 start_battle_07.wav
 start_battle_08.wav
 
-Приборы наблюдения повреждены
 # surveying_devices_damaged
+Приборы наблюдения повреждены
 surveying_devices_damaged_01.wav
 surveying_devices_damaged_02.wav
 surveying_devices_damaged_03.wav
 surveying_devices_damaged_04.wav
 surveying_devices_damaged_05.wav
 
-Приборы наблюдения выведены из строя
 # surveying_devices_destroyed
+Приборы наблюдения выведены из строя
 surveying_devices_destroyed_01.wav
 surveying_devices_destroyed_02.wav
 surveying_devices_destroyed_03.wav
@@ -221,8 +222,8 @@ surveying_devices_destroyed_04.wav
 surveying_devices_destroyed_05.wav
 surveying_devices_destroyed_06.wav
 
-Приборы наблюдения восстановлены
 # surveying_devices_functional
+Приборы наблюдения восстановлены
 surveying_devices_functional_01.wav
 surveying_devices_functional_02.wav
 surveying_devices_functional_03.wav
@@ -230,56 +231,56 @@ surveying_devices_functional_04.wav
 surveying_devices_functional_05.wav
 surveying_devices_functional_06.wav
 
-Гусеница сбита, можем откатиться
 # track_cut
+Гусеница сбита, можем откатиться
 track_destroyed_cut_01.wav
 
-Повреждение гусеницы
 # track_damaged
+Повреждение гусеницы
 track_damaged_01.wav
 track_damaged_02.wav
 track_damaged_03.wav
 track_damaged_04.wav
 
-Гусеница сбита, движение невозможно
 # track_destroyed
+Гусеница сбита, движение невозможно
 track_destroyed_01.wav
 track_destroyed_02.wav
 track_destroyed_03.wav
 track_destroyed_04.wav
 
-Гусеница восстановлена
 # track_functional
+Гусеница восстановлена
 track_functional_01.wav
 track_functional_02.wav
 track_functional_03.wav
 track_functional_04.wav
 
-Гусеница восстановлена, можно ехать
 # track_functional_can_move
+Гусеница восстановлена, можно ехать
 track_functional_can_move_01.wav
 track_functional_can_move_02.wav
 track_functional_can_move_03.wav
 track_functional_can_move_04.wav
 track_functional_can_move_05.wav
 
-Башня повреждена
 # turret_rotator_damaged
+Башня повреждена
 turret_rotator_damaged_01.wav
 turret_rotator_damaged_02.wav
 
-Башня выведена из строя, вращение невозможно
 # turret_rotator_destroyed
+Башня выведена из строя, вращение невозможно
 turret_rotator_destroyed_01.wav
 turret_rotator_destroyed_02.wav
 
-Башня частично восстановлена, скорость вращения снижена
 # turret_rotator_functional
+Башня частично восстановлена, скорость вращения снижена
 turret_rotator_functional_01.wav
 turret_rotator_functional_02.wav
 
-Танк уничтожен
 # vehicle_destroyed
+Танк уничтожен
 vehicle_destroyed_01.wav
 vehicle_destroyed_02.wav
 vehicle_destroyed_03.wav
