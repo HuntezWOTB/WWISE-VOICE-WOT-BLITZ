@@ -26,12 +26,12 @@
 
 
 # ally_killed_by_player
-* Уничтожение союзника вами
+Уничтожение союзника вами
 * ally_killed_by_player_01.wav
 * ally_killed_by_player_02.wav
 
 # ammo_bay_damaged
-* Повреждение боеукладки
+Повреждение боеукладки
 * ammo_bay_damaged_01.wav
 * ammo_bay_damaged_02.wav
 * ammo_bay_damaged_03.wav
