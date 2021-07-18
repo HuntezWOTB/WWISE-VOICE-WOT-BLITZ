@@ -26,8 +26,7 @@
 
 
 # ally_killed_by_player
-
-Уничтожение союзника вами
+* Уничтожение союзника вами
 ally_killed_by_player_01.wav
 ally_killed_by_player_02.wav
 
