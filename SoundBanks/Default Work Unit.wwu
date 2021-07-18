@@ -2,6 +2,8 @@
 <WwiseDocument Type="WorkUnit" ID="{77BD6D9F-A9D2-4F8D-9F0A-DD5B84C6290A}" SchemaVersion="97">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{77BD6D9F-A9D2-4F8D-9F0A-DD5B84C6290A}" PersistMode="Standalone">
+			<Comment>Автор готового шаблона: Huntez
+WWISE Voice project for World of Tanks Blitz</Comment>
 			<ChildrenList>
 				<SoundBank Name="voiceover_crew" ID="{1F044A01-2A32-4854-A2DE-FA7769C5FBD9}">
 					<Comment>Автор готового шаблона: Huntez

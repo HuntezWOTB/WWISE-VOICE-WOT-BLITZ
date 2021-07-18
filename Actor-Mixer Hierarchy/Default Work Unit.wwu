@@ -25,7 +25,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.64</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -74,7 +74,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -136,7 +136,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -224,7 +224,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -403,7 +403,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -543,7 +543,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -657,7 +657,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -719,7 +719,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -781,7 +781,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -856,7 +856,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -996,7 +996,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1084,7 +1084,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1146,7 +1146,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1195,7 +1195,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1244,7 +1244,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1306,7 +1306,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1381,7 +1381,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1456,7 +1456,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1518,7 +1518,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1593,7 +1593,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1655,7 +1655,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1701,14 +1701,6 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<Comment>Повреждена рация, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
 Автор готового шаблона: Huntez
 WWISE Voice project for World of Tanks Blitz</Comment>
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>0.46</Value>
-									</ValueList>
-								</Property>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
@@ -1789,14 +1781,6 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<Comment>Радист контужен, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
 Автор готового шаблона: Huntez
 WWISE Voice project for World of Tanks Blitz</Comment>
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>0.46</Value>
-									</ValueList>
-								</Property>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
@@ -1826,6 +1810,11 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 Автор готового шаблона: Huntez
 WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1950,7 +1939,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2038,7 +2027,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2139,7 +2128,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2240,7 +2229,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2315,7 +2304,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2390,7 +2379,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2465,7 +2454,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2553,7 +2542,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2602,7 +2591,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2651,7 +2640,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.46</Value>
+										<Value>0.48</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2700,7 +2689,7 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>0.64</Value>
+										<Value>0.85</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2756,9 +2745,16 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="track_cut" ID="{7F217402-525D-4EF0-9C70-57DD50D3075F}" ShortID="830637070">
-							<Comment>Гусеница сбита, можем двигаться назад
+							<Comment>Гусеница сбита, можем откатиться
 Автор готового шаблона: Huntez
 WWISE Voice project for World of Tanks Blitz</Comment>
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.48</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD6653E4-D923-48D6-8DB2-54D852420B66}"/>
