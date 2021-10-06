@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Settings" ID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
