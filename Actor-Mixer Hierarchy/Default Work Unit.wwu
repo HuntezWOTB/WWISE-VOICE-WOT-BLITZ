@@ -21,8 +21,13 @@ BlitzHUB</Comment>
 						<RandomSequenceContainer Name="ally_killed_by_player" ID="{84CA5985-BCF8-4909-B138-E63072A26EAF}" ShortID="606059226">
 							<Comment>Вами убит союзник / Союзник убит вами
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -134,8 +139,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="ammo_bay_damaged" ID="{E0A8A006-B73D-4E03-82BF-F443D002FD0A}" ShortID="800065553">
 							<Comment>Повреждение боеукладки
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -294,8 +304,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="armor_not_pierced_by_player" ID="{600254FB-5B6A-4A06-841A-AFD900D15738}" ShortID="606006122">
 							<Comment>Броня не пробита
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -548,8 +563,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="armor_pierced_by_player" ID="{A85C2AD3-E4BE-41DB-AF48-31B66CAADF1C}" ShortID="280449603">
 							<Comment>Пробитие / Есть пробитие
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1131,8 +1151,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="armor_pierced_crit_by_player" ID="{816F10CE-20AF-4814-9AD6-60CCFB47B9BF}" ShortID="233839726">
 							<Comment>Попадание / Есть попадание
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1573,8 +1598,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="armor_ricochet_by_player" ID="{332AE7E8-DA5A-46FA-B491-2ABC8B630C1B}" ShortID="1033596187">
 							<Comment>Рикошет
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1921,8 +1951,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="commander_killed" ID="{EF18B2D4-2989-4839-B43C-52437B235592}" ShortID="1048455507">
 							<Comment>Командир контужен, видимость снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -2081,8 +2116,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="driver_killed" ID="{CBE63CDB-0599-42AD-AF11-4A268951C2B1}" ShortID="261366532">
 							<Comment>Мех-Вод контужен, скорость движения и поворотов снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -2241,8 +2281,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="enemy_fire_started_by_player" ID="{F53759E2-426C-44A7-9AC9-26C38A442194}" ShortID="1063269547">
 							<Comment>Враг горит
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -2448,8 +2493,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="enemy_killed_by_player" ID="{ED166136-29A7-423D-969D-62A1217A3110}" ShortID="357592771">
 							<Comment>Готов / Противник уничтожен
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -2890,8 +2940,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="engine_damaged" ID="{AE4D23AE-75C2-4E40-A3C4-73DA933DAFE1}" ShortID="658815949">
 							<Comment>Двигатель повреждён, скорость движения и поворотов снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3144,8 +3199,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="engine_destroyed" ID="{1436B103-CD77-4419-978B-7DA9E3D5979D}" ShortID="225465094">
 							<Comment>Критическое повреждение двигателя, движение невозможно
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3304,8 +3364,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="engine_functional" ID="{CE698779-6C4A-4D15-8C04-2402AD4117C9}" ShortID="872664146">
 							<Comment>Двигатель частично восстановлен, можно ехать, максимальная скорость снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3417,8 +3482,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="fire_started" ID="{88A4CA6C-854E-42B2-B09F-6C7CA9BA4CFF}" ShortID="661548212">
 							<Comment>Танк горит
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3530,8 +3600,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="fire_stopped" ID="{01B3FC53-DF43-493A-B00D-E748E00E9077}" ShortID="885601922">
 							<Comment>Пожар потушен
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3690,8 +3765,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="fuel_tank_damaged" ID="{28B2AE7B-A7B1-44BB-8186-C8077740B416}" ShortID="13071338">
 							<Comment>Бак повреждён, опасность взрыва
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -3897,8 +3977,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="gun_damaged" ID="{7E03A4EA-29E8-4DAA-98A6-A51F9EF65A06}" ShortID="776103630">
 							<Comment>Орудие повреждено, точность стрельбы снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -4104,8 +4189,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="gun_destroyed" ID="{5CE446F4-AE51-4255-93D1-5369D054AFC2}" ShortID="613448389">
 							<Comment>Критическое повреждение орудия, стрельба невозможна
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -4264,8 +4354,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="gun_functional" ID="{BE495E2F-F81B-47EB-ACBA-F67C08B63591}" ShortID="422605910">
 							<Comment>Орудие частично восстановлено, можно стрелять
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -4471,8 +4566,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="gunner_killed" ID="{370DE8CB-7594-4D37-9633-CCAAB2A5D9D4}" ShortID="104801151">
 							<Comment>Наводчик контужен, разброс увеличивается
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -4631,8 +4731,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="loader_killed" ID="{967333D2-CCC5-483C-AF0E-062919861322}" ShortID="946345014">
 							<Comment>Заряжающий контужен, скорость перезарядки снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -4744,8 +4849,14 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="radio_damaged" ID="{2A9BF07C-CAD6-488C-92AD-240C26813FAE}" ShortID="475487644">
 							<Comment>Повреждена рация, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -4997,8 +5108,14 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="radioman_killed" ID="{6CFFB6AD-1B72-4E59-BFF4-2B6DF5AAF756}" ShortID="365038380">
 							<Comment>Радист контужен, радиус связи снижен   [НЕ ИСПОЛЬЗУЕТСЯ В ИГРЕ]
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -5062,8 +5179,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="start_battle" ID="{F963B4EB-8E2A-46BA-B714-7F779DB5D2FC}" ShortID="475089892">
 							<Comment>Бой начинается / В бой / Поехали
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -5457,8 +5579,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="surveying_devices_damaged" ID="{C330C228-58AB-4CCB-A550-0B3647B347D4}" ShortID="238554967">
 							<Comment>Трипликс повреждён, область видимости снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -5711,8 +5838,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="surveying_devices_destroyed" ID="{9E6D14E9-AD12-4703-A3FB-6038C3155F98}" ShortID="916268997">
 							<Comment>Разбит трипликс, видимость снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -6012,8 +6144,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="surveying_devices_functional" ID="{2F40F14C-7D9B-4140-AA2A-E37EE541C167}" ShortID="305181478">
 							<Comment>Трипликс восстановлен, обзор нормальный
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -6313,8 +6450,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="track_damaged" ID="{16882B8C-3123-44FA-AEA2-00D047C17EE2}" ShortID="43849390">
 							<Comment>Гусеницы повреждены, шанс разрыва увеличен
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -6520,8 +6662,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="track_destroyed" ID="{E3AA61E0-EF59-46CC-A742-1442F06D0DAE}" ShortID="687878362">
 							<Comment>Гусеница сбита, движение невозможно
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -6727,8 +6874,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="track_functional" ID="{BC8AC1C7-5665-426E-A7D2-18315FF5A556}" ShortID="990146772">
 							<Comment>Гусеница восстановлена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -6934,8 +7086,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="track_functional_can_move" ID="{1A3CE061-D464-4FF2-999B-5D5C36610836}" ShortID="443090241">
 							<Comment>Гусеница восстановлена, можо ехать
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -7188,8 +7345,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="turret_rotator_damaged" ID="{612179C7-FA85-4991-BBDA-3FCD576B4900}" ShortID="264573588">
 							<Comment>Попадание под башню, скорость вращения башни снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -7301,8 +7463,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="turret_rotator_destroyed" ID="{F42CC84F-19EA-494A-A151-1186F6411C77}" ShortID="577581722">
 							<Comment>Вращение башни невозможно, уничтожен механизм
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -7414,8 +7581,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="turret_rotator_functional" ID="{5BF0E2C5-F7EC-4286-89AC-3CE419261814}" ShortID="215614851">
 							<Comment>Вращение башни частично восстановлена, скорость вращения снижена
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -7527,8 +7699,13 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="vehicle_destroyed" ID="{336EAAE5-0DD5-4E06-BF87-1362B4ED4EDE}" ShortID="633533556">
 							<Comment>Танк уничтожен
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
@@ -7687,8 +7864,14 @@ WWISE Voice project for World of Tanks Blitz</Comment>
 						<RandomSequenceContainer Name="track_cut" ID="{7F217402-525D-4EF0-9C70-57DD50D3075F}" ShortID="830637070">
 							<Comment>Гусеница сбита, можем откатиться
 Автор готового шаблона: Huntez
-WWISE Voice project for World of Tanks Blitz</Comment>
+WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Games)</Comment>
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
