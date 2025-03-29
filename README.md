@@ -5,59 +5,59 @@
 Совместимая версия WWISE: 2019.2.9.7459.
 
 
-# 1) Установка WWISE
-1. Скачайте WWISE Launcher с официального сайта (Пройдите процесс авторизации на сайте): https://www.audiokinetic.com/en/download/
-((( Примечание: Если при скачивании возникает ошибка 403 (блокировка IP из-за санкций): Включите любой VPN. )))
-((( Обновите страницу, нажмите Download — загрузка должна начаться. )))
-2. Установите WWISE Launcher после завершения загрузки.
-3. Запустите WWISE Launcher и пройдите процесс авторизации в программе.
-4. Откройте раздел WWISE.
-5. Перейдите к пункту INSTALL NEW VERSION.
-6. В кнопке Latest выберите: ALL.
-7. В кнопке Major Version выберите: 2019.2.
-8. В кнопке Version выберите: 2019.2.9.7459.
+# 1) Установка WWISE  
+1. Скачайте WWISE Launcher с официального сайта (Пройдите процесс авторизации на сайте): https://www.audiokinetic.com/en/download/  
+((( Примечание: Если при скачивании возникает ошибка 403 (блокировка IP из-за санкций): Включите любой VPN. )))  
+((( Обновите страницу, нажмите Download — загрузка должна начаться. )))  
+2. Установите WWISE Launcher после завершения загрузки.  
+3. Запустите WWISE Launcher и пройдите процесс авторизации в программе.  
+4. Откройте раздел WWISE.  
+5. Перейдите к пункту INSTALL NEW VERSION.  
+6. В кнопке Latest выберите: ALL.  
+7. В кнопке Major Version выберите: 2019.2.  
+8. В кнопке Version выберите: 2019.2.9.7459.  
 9. Нажмите кнопку Install.  
-((( Ожидайте полной установки (не отключайте VPN на этом этапе - если у вас блокировка IP из-за санкций). )))
+((( Ожидайте полной установки (не отключайте VPN на этом этапе - если у вас блокировка IP из-за санкций). )))  
 10. После установки в разделе INSTALLED VERSION появится версия 2019.2.9.7459.  
 11. Справа от неё нажмите кнопку Launch Wwise (64-bit).  
-((( Если у вас блокировка IP из-за санкций: Теперь VPN можно отключить — он больше не нужен. )))
+((( Если у вас блокировка IP из-за санкций: Теперь VPN можно отключить — он больше не нужен. )))  
 
-# 2) Подготовка проекта
-1. Откройте папку, куда был загружен скаченный ZIP файл.
-2. Распакуйте архив проекта WWISE VOICE WOT BLITZ в удобное место.
-3. Откройте папку распакованного архива
-4. Откройте файл WOTB_WWISE_VOICE.wproj двойным кликом.
+# 2) Подготовка проекта  
+1. Откройте папку, куда был загружен скаченный ZIP файл.  
+2. Распакуйте архив проекта WWISE VOICE WOT BLITZ в удобное место.  
+3. Откройте папку распакованного архива  
+4. Откройте файл WOTB_WWISE_VOICE.wproj двойным кликом.  
 5. В интерфейсе WWISE перейдите в:  
-Audio → Actor-Mixer Hierarchy → Default Work Unit → voice.
+Audio → Actor-Mixer Hierarchy → Default Work Unit → voice.  
 6. В разделе voice вы увидите контейнеры для аудиофайлов. Каждый контейнер соответствует определённому действию:  
 Примеры контейнеров:  
 enemy_killed_by_player — противник уничтожен.  
 fuel_tank_damaged — топливный бак повреждён.  
-track_destroyed — гусеница сбита, движение невозможно.
-(все указания контейнеров в вверхней части по центру в окне с текстом)
+track_destroyed — гусеница сбита, движение невозможно.  
+(все указания контейнеров в вверхней части по центру в окне с текстом)  
 7. Нажмите на плюсик слева от контейнера, чтобы раскрыть его содержимое.  
 Внутри находятся файлы-пустышки (например, в контейнере surveying_devices_functional есть файлы от surveying_devices_functional_01 до surveying_devices_functional_06 — всего 6 аудиофайлов).  
 Как добавить свои аудиофайлы:  
 7.1. Удалите файлы-пустышки.  
-7.2. Вставьте свои аудиофайлы с точно такими же названиями (например, surveying_devices_functional_01.wav).
-7.3. Если нужно поменять задержку перед воспроизведением у каждого контейнера или аудио - используйте пункт Initial Delay. В проекте он установлен на 0.55
+7.2. Вставьте свои аудиофайлы с точно такими же названиями (например, surveying_devices_functional_01.wav).  
+7.3. Если нужно поменять задержку перед воспроизведением у каждого контейнера или аудио - используйте пункт Initial Delay. В проекте он установлен на 0.55  
 7.4. Если нужно убрать лимит на количество файлов в контейнере:  
 Переименуйте свои аудиофайлы перед вставкой, добавив дополнительные нули в название:  
 Было: surveying_devices_functional_01.  
-Стало: surveying_devices_functional_0001.
+Стало: surveying_devices_functional_0001.  
 Важно: Без лицензии можно добавить не более 200 аудиофайлов.  
 7.5. Для увеличения лимита проекта:  
-Вставьте ключ-лицензию в WWISE:
-PHByb2plY3QgaWQ9IjExMzI3IiBtYXNrPSJGQUlBOTUyOCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwIiBleHBpcmVzPSIyMDIyLTA3LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCIgZXhwaXJlcz0iMjAyMi0wNy0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwIiBleHBpcmVzPSIyMDIyLTA3LTAxIiAgLz48L3Byb2plY3Q+|Xwh9J1xhqrV4XhzXf3JemKSDHSX6qtRAyi/EIaVy07xSQvd+Svwfwx/rSt0viXRjl7uYvDUwmVLT1pFzU1Ogf+JmxiohdUAjnQ9YTTrT26uB+VSLH6X1y65HeRelqVZwypGK6ZjGCIw6Hjfbg+OehDtwr/BbRqN26zQXtgbJijvVfWWpdfS/2wM1b4Im6nL2u4OLU28lvXjnwjDSnb6Y0Brcq0HE1nDkljEy0XWmXWi05Uqo3Dqd5yd65WIX72riWkioi/cceU7ean+WGlrQzinffpAQb5LJry4uPWeLANTfbcR8lU9VNBYOSfAGqTNxh112HJGlmkaLE+fnkG0MQQ==
+Вставьте ключ-лицензию в WWISE:  
+PHByb2plY3QgaWQ9IjExMzI3IiBtYXNrPSJGQUlBOTUyOCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwIiBleHBpcmVzPSIyMDIyLTA3LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCIgZXhwaXJlcz0iMjAyMi0wNy0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwIiBleHBpcmVzPSIyMDIyLTA3LTAxIiAgLz48L3Byb2plY3Q+|Xwh9J1xhqrV4XhzXf3JemKSDHSX6qtRAyi/EIaVy07xSQvd+Svwfwx/rSt0viXRjl7uYvDUwmVLT1pFzU1Ogf+JmxiohdUAjnQ9YTTrT26uB+VSLH6X1y65HeRelqVZwypGK6ZjGCIw6Hjfbg+OehDtwr/BbRqN26zQXtgbJijvVfWWpdfS/2wM1b4Im6nL2u4OLU28lvXjnwjDSnb6Y0Brcq0HE1nDkljEy0XWmXWi05Uqo3Dqd5yd65WIX72riWkioi/cceU7ean+WGlrQzinffpAQb5LJry4uPWeLANTfbcR8lU9VNBYOSfAGqTNxh112HJGlmkaLE+fnkG0MQQ==  
 Перед генерацией СаундБанка озвучки (в следующем разделе) временно измените системный год на 2021.  
-После генерации верните актуальный год.
+После генерации верните актуальный год.  
 
 # 3) Генерация озвучки
-1. Перейдите в: SoundBanks → Default Work Unit.
+1. Перейдите в: SoundBanks → Default Work Unit.  
 2. Щёлкните правой кнопкой по voiceover_crew → Generate Soundbank(s) for current platform.  
 3. После генерации (даже если появится "Completed with error(s)") найдите файл:  
-Путь: [Папка проекта]/GeneratedSoundBanks/Windows/English(US)/voiceover_crew.bnk.
-4. Конвертируйте файл voiceover_crew.bnk в формат .dvpl с помощью конвертера.
+Путь: [Папка проекта]/GeneratedSoundBanks/Windows/English(US)/voiceover_crew.bnk.  
+4. Конвертируйте файл voiceover_crew.bnk в формат .dvpl с помощью конвертера.  
 
 
 
@@ -328,32 +328,32 @@ PHByb2plY3QgaWQ9IjExMzI3IiBtYXNrPSJGQUlBOTUyOCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIg
 
 # 4) Установка озвучки:
 
-Для Windows:
-Найдите папку с установленной игрой (World of Tanks Blitz или Tanks Blitz).
+Для Windows:  
+Найдите папку с установленной игрой (World of Tanks Blitz или Tanks Blitz).  
 Скопируйте файл voiceover_crew.bnk.dvpl в:  
-Data/WwiseSound/[язык, например, ru].
+Data/WwiseSound/[язык, например, ru].  
 Подтвердите замену файлов.  
-Готово!
+Готово!  
+  
+Для Android:  
+Подготовка в игре  
+Зайдите в игру (World of Tanks Blitz или Tanks Blitz).  
+Перейдите в Настройки → Другое.  
+Включите "Загрузить все ресурсы игры" (если доступно).  
+Установка для World of Tanks Blitz  
+Найдите папку с игрой на устройстве.  
+Скопируйте файл voiceover_crew.bnk.dvpl в:  
+- Клиент Wargaming: Android/data/net.wargaming.wot.blitz/files/packs/WwiseSound/[язык, например, ru].  
+- Клиент Lesta Games: Android/data/com.tanksblitz/files/packs/WwiseSound/[язык, например, ru].  
+((( Примечание: С Android 11 и выше доступ к папке data может быть ограничен. Способы обхода зависят от устройства, ищите инструкции в интернете. )))  
+Подтвердите замену файлов.  
+Озвучка установлена!  
+Примечание: Рекомендуется сделать бэкап оригинального файла озвучки перед заменой.  
 
-Для Android:
-Подготовка в игре
-Зайдите в игру (World of Tanks Blitz или Tanks Blitz).
-Перейдите в Настройки → Другое.
-Включите "Загрузить все ресурсы игры" (если доступно).
-Установка для World of Tanks Blitz
-Найдите папку с игрой на устройстве.
-Скопируйте файл voiceover_crew.bnk.dvpl в:
-- Клиент Wargaming: Android/data/net.wargaming.wot.blitz/files/packs/WwiseSound/[язык, например, ru].
-- Клиент Lesta Games: Android/data/com.tanksblitz/files/packs/WwiseSound/[язык, например, ru].
-((( Примечание: С Android 11 и выше доступ к папке data может быть ограничен. Способы обхода зависят от устройства, ищите инструкции в интернете. )))
-Подтвердите замену файлов.
-Озвучка установлена!
-Примечание: Рекомендуется сделать бэкап оригинального файла озвучки перед заменой.
-
-Итог:
-Теперь у вас есть собственная озвучка для World of Tanks Blitz или Tanks Blitz!
-Желаю вам успехов в моддинге!
-Автор: Huntez
-
+Итог:  
+Теперь у вас есть собственная озвучка для World of Tanks Blitz или Tanks Blitz!  
+Желаю вам успехов в моддинге!  
+Автор: Huntez  
+  
 Поддержать меня подпиской: https://youtube.com/HuntezChannel  
 Поддержать меня финансово: https://donationalerts.com/r/Huntez  
