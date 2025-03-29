@@ -58,11 +58,11 @@ PHByb2plY3QgaWQ9IjExMzI3IiBtYXNrPSJGQUlBOTUyOCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIg
 3. После генерации (даже если появится "Completed with error(s)") найдите файл:  
 Путь: [Папка проекта]/GeneratedSoundBanks/Windows/English(US)/voiceover_crew.bnk.  
 4. Конвертируйте файл voiceover_crew.bnk в формат .dvpl с помощью конвертера.  
+  
 
 
 
-
-
+# =========================  
 
 # ally_killed_by_player
 Уничтожение союзника вами
