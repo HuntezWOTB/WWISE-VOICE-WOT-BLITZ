@@ -30,6 +30,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1980EDF4-2BB2-4ADC-B344-C5AE32AEA806}" ShortID="927288732">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0D746547-1715-48C4-962E-DF7886951373}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -148,6 +176,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8BF09720-05D0-49EE-9992-B6AE4BD292A8}" ShortID="862958255">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{533352B3-358A-4486-981E-B352B7D7D485}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -313,6 +369,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1E1868E5-5787-43A0-9B6D-DD1654FBEB10}" ShortID="798153659">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{405B34EB-0490-4F78-910E-83148583FF0C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -572,6 +656,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{604D77D5-E6D4-4B26-9405-4CF7E102704F}" ShortID="1002249293">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{61319096-E8C6-4938-B48C-35B9255F7A1B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1160,6 +1272,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A2A1C1E5-5FCE-4F08-91AC-70C94013DC13}" ShortID="269140342">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1ED2D603-B24A-420C-9A83-7E21DCBA5705}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1607,6 +1747,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{0390A93E-9275-4464-B808-A456D980E349}" ShortID="652698604">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{307DD414-CF68-40D2-AD58-B1506DCED24A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1960,6 +2128,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A6AD27E8-5571-4BC2-8D88-904FE3B2B8F9}" ShortID="317824218">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CAD471C9-3B99-4F16-93DC-B61E130BBB9D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2125,6 +2321,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{99D8242C-3EF1-470B-AE51-D4BF4016C68D}" ShortID="912977599">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CEFECEA0-B16F-44EC-BFAE-83F309C8E3A0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2290,6 +2514,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{69BD024D-B915-41A7-86DA-43DD86DAC062}" ShortID="957990034">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5C1B492A-3104-4701-8C1E-345E20A1EDAF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2502,6 +2754,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C1B017B8-C205-4D77-B861-B1C8ED721780}" ShortID="407464337">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{17B20D85-C00F-4FB1-AE73-2A412309F9B1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2949,6 +3229,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4A546561-68DA-49AA-A39D-28EFF000FB77}" ShortID="231683130">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{05209026-3794-4A50-BBCE-786799A87820}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3208,6 +3516,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{30A44EAC-7491-4B24-9EE6-D9F08FE4AC76}" ShortID="712962425">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{495C0658-F5FE-4A09-8F1E-5D67187B2349}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3373,6 +3709,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{464AE5EC-7955-48DD-B9B9-E00830D9BC42}" ShortID="590881161">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{37ADD4AE-7933-46CD-A06F-C302A9A09950}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3491,6 +3855,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1ADF7E00-C3E7-4090-9DF6-C9AEFAD0A0D4}" ShortID="1035797045">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{249ACC33-5293-4E08-91EB-BF6EDB6FCB95}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3609,6 +4001,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B28AAFA4-062D-4FE2-92A2-47585785F37A}" ShortID="1010934692">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5317F616-A844-4297-82B6-1E25F0178E47}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3774,6 +4194,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{72126914-CF3D-4FCB-971A-17837E84C3EB}" ShortID="319535351">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{01A1DBF1-2701-4FDD-91B3-7642DDF8F8C3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3986,6 +4434,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{17D89043-E5C7-42E5-B144-D295FA8887B7}" ShortID="104779665">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{36BAE763-56E0-4897-80A2-503EFE3A6491}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4198,6 +4674,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D2F3A842-72B0-4CDD-95B5-8C9451963D5C}" ShortID="33279419">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D07E47ED-15A7-4934-AC9C-B99F6729DF4E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4363,6 +4867,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E02D3E99-7068-40EA-8699-915B1D2402B9}" ShortID="694621391">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EC05776B-8EDD-441D-AB1C-235E4173752E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4575,6 +5107,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{15BD36BE-9EE8-4B6D-936B-26D1B465160F}" ShortID="224552">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{744BDB36-BD58-4740-9CA4-57DA568CB273}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4740,6 +5300,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{09377A86-14BD-440C-A7EC-937063677EB0}" ShortID="560334451">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6301364A-2DA8-4E14-B194-A2DAA24DE016}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4858,6 +5446,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AC60CC90-3715-424D-999D-CE4A65C25154}" ShortID="58791442">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{09B6DF5C-7F7B-4ECF-A642-50856315E9E7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5117,6 +5733,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{11423DF3-084D-4582-A059-03B8AAE67A4A}" ShortID="504939134">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9E599977-D9FC-42F2-8531-83339C5C9D48}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5188,6 +5832,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{38CD2779-F6D6-4543-BFAC-D4ED9C395899}" ShortID="493130571">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{11AF1861-3C84-4C5B-9A67-E60360C88FAC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5588,6 +6260,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B6DED974-1B0D-4A8A-AC6B-2B8DB21AF5EA}" ShortID="825015773">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AFA05D91-A8F1-474F-B51C-474EEFC2C2A4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5847,6 +6547,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2FE056A8-B226-43AB-A553-0D60B038530B}" ShortID="408442671">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{86EF256A-2F31-4ECF-87A0-F7C7C70B710B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6153,6 +6881,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8E7DF668-F7C4-407A-ADAF-273B1D308D33}" ShortID="967812067">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AA395A2B-204A-4437-8EC5-E6CCE55DE314}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6459,6 +7215,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2FE880F0-C161-46A5-9F94-A6A99CB332D3}" ShortID="277409143">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2856911C-B168-427C-843F-D5B8D99C6C32}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6671,6 +7455,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{480E7E64-3BCB-4615-885B-22D2BB255389}" ShortID="701954263">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B1E93DB3-98E9-4B30-A16A-20E4D42B8464}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6883,6 +7695,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BB36B203-EABB-458B-A497-6F62F20D99DB}" ShortID="506513117">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5E3E0ED6-FFAB-47B1-BE5F-4FF6FB65968A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7095,6 +7935,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4A014C7A-21CD-4C0A-A905-BA28B9F18BBA}" ShortID="692271136">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C6E855C7-BA5B-47E2-B467-389C08B50BA6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7354,6 +8222,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6E306A37-C93E-4A96-A3FC-1F8D35D89846}" ShortID="220281883">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A907375B-8FEA-4D56-A2DA-7DAADB28AAF3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7472,6 +8368,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EBA70426-DBD6-48D4-AC1B-E8CEA0112598}" ShortID="189545034">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{ABE5F891-5C55-4C16-9286-63F5298FE0A1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7590,6 +8514,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F2F1A764-4466-4AA0-891D-EFD0F83CD5B3}" ShortID="23891585">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2345264E-1F10-4AEE-985C-B92B68E193CC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7708,6 +8660,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{58DD804E-B6C6-4BB3-ADF2-0BFB93E74134}" ShortID="798611647">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A1D6C34F-3E13-4DAC-8CB8-20427AC8F085}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7873,6 +8853,34 @@ WWISE Voice project for World of Tanks Blitz (Wargaming) / Tanks Blitz (Lesta Ga
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B7B45B1D-DFC5-4446-AFE6-AB7A6384DC2D}" ShortID="475937191">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{82AD00DA-431E-46F4-8993-498D149CD5AD}" WorkUnitID="{9B0FE0FE-C3FA-48B8-BD81-9ADB2E764C45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{901503E2-3491-469B-9F3E-298ABDF5582C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
